@@ -3,6 +3,12 @@ package texst;
 import org.eclipse.paho.client.mqttv3.*;
 import org.eclipse.paho.client.mqttv3.persist.MemoryPersistence;
 
+/**
+ * MqttClient对象通过 client.connect(options)连接
+ * 所有设置通过MqttConnectOptions设置
+ * topic.publish(message)来发送消息
+ *
+ */
 public class MqttServer {
     /**
      * 代理服务器ip地址

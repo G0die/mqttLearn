@@ -3,6 +3,9 @@ package texst;
 import org.eclipse.paho.client.mqttv3.*;
 import org.eclipse.paho.client.mqttv3.persist.MemoryPersistence;
 
+/**
+ * 通过 mqttClient.setCallback() 进行接收消息等操作
+ */
 public class MyMqttClient {
     /**
      * 代理服务器ip地址
